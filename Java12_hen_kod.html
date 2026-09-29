@@ -1,0 +1,50 @@
+<textarea>
+<!DOCTYPE html>   
+<head>  
+</head>  
+<body> 
+<textarea height="400" width="400">
+
+<!DOCTYPE html>   
+<head>    
+<title> Hennig 2P</title>    
+<meta charset="utf-8">   
+</head>  
+<body> 
+<div style="color:red;font-size:50px;"> 
+<script language="JavaScript"> 
+var D1_hen=prompt("Dzień1=","");
+var G1_hen=prompt("Godź1=","");  
+var D2_hen=prompt("Dzień2=",""); 
+var G2_hen=prompt("Godź2=",""); 
+var ah; 
+var bh; 
+var bp; 
+var ap; 
+var kir; 
+var czas; 
+var a=parseFloat(D1_hen); 
+var i=parseFloat(G1_hen); 
+var b=parseFloat(D2_hen); 
+var j=parseFloat(G2_hen); 
+//ap=(a-1)*24*60*60;
+//bp=(b-1)*24*60*60;
+//ip=i*60*60;
+//jp=j*60*60;
+//kir=ap+ip-bp+jp;-
+ah=a*24;
+bh=b*24;
+ap=ah-24+j;
+bp=ah-24+i;
+czas=ap-bp;
+kir=czas*60*60;
+document.write("D1="+D1_hen+"<br>"); 
+document.write("D2="+D2_hen+"<br>"); 
+document.write("ilość sekund="+kir+"sekund <br>"); 
+</script> 
+</div> 
+</body> 
+</html>
+</textarea>
+</body> 
+</html>
